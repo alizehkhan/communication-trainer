@@ -1,0 +1,20 @@
+const About = () => {
+  return (
+    <div className="container mx-auto my-20">
+      <h2 className="text-gray-700 font-serif text-5xl font-bold">
+        Hi, I'm Haneen
+      </h2>
+      <p className="text-xl max-w-2xl text-gray-600 mt-8">
+        Lorem ipsum dolor sit amet consectetur. Libero iaculis at dignissim
+        gravida molestie pretium blandit est eu. Condimentum vitae venenatis
+        turpis semper. Id leo fermentum est enim. Elit cras accumsan at id
+        lacinia ac ut. Lorem ipsum dolor sit amet consectetur. Libero iaculis at
+        dignissim gravida molestie pretium blandit est eu. Condimentum vitae
+        venenatis turpis semper. Id leo fermentum est enim. Elit cras accumsan
+        at id lacinia ac ut.
+      </p>
+    </div>
+  );
+};
+
+export default About;
