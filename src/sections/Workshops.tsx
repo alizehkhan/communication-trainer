@@ -1,4 +1,4 @@
-const Topics = () => {
+const Workshops = () => {
   const col1 = [
     {
       title: '🗣️ Gossip',
@@ -55,10 +55,13 @@ const Topics = () => {
   ];
 
   return (
-    <div className="container mx-auto my-24 text-gray-700">
-      <h2 className="font-serif text-5xl text-gray-700 font-bold">
-        I touch on a range of topics
+    <div className="container flex flex-col items-center my-24 text-gray-700">
+      <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
+        Workshops
       </h2>
+      <p className="font-serif text-5xl text-gray-700 font-bold">
+        I touch on a range of topics
+      </p>
       <div className="flex gap-8 mt-10 flex-wrap">
         <div className="flex flex-col gap-8">
           {col1.map((topic, index) => (
@@ -98,4 +101,4 @@ const Topics = () => {
   );
 };
 
-export default Topics;
+export default Workshops;

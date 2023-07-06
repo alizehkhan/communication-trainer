@@ -4,16 +4,18 @@ import About from './sections/About';
 import Approach from './sections/Approach';
 import Hero from './sections/Hero';
 import Quote from './sections/Quote';
-import Topics from './sections/Topics';
+import Workshops from './sections/Workshops';
+import Contact from './sections/Contact';
 
 function App() {
   return (
     <BrowserRouter>
       <Hero />
       <Approach />
-      <Topics />
+      <Workshops />
       <Quote />
       <About />
+      <Contact />
     </BrowserRouter>
   );
 }

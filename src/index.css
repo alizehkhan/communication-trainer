@@ -43,3 +43,12 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
