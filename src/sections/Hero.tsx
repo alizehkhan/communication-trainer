@@ -2,7 +2,7 @@ import Navigation from '../ components/Navigation';
 
 const Hero = () => {
   return (
-    <div className="bg-[url('hero.png')] h-screen bg-cover">
+    <div className="bg-[url('/hero.png')] h-screen bg-cover">
       <Navigation />
       <div className="container mx-auto flex justify-end mt-20">
         <div>
