@@ -6,6 +6,7 @@ import Hero from './sections/Hero';
 import Quote from './sections/Quote';
 import Workshops from './sections/Workshops';
 import Contact from './sections/Contact';
+import Testimonial from './sections/Testimonial';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Workshops />
       <Quote />
       <About />
+      <Testimonial />
       <Contact />
     </BrowserRouter>
   );

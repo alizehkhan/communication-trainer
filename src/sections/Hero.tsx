@@ -6,7 +6,7 @@ const Hero = () => {
       <Navigation />
       <div className="container mx-auto flex justify-end mt-20">
         <div>
-          <h1 className="text-white text-6xl font-bold max-w-[520px] font-serif leading-tight">
+          <h1 className="text-white text-6xl font-bold max-w-[500px] font-serif leading-tight">
             Transform relationships and culture in the workplace
           </h1>
           <p className="text-white max-w-[440px] text-2xl">
