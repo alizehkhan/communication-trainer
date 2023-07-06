@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import About from './sections/About';
 import Approach from './sections/Approach';
@@ -7,13 +8,13 @@ import Topics from './sections/Topics';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Hero />
       <Approach />
       <Topics />
       <Quote />
       <About />
-    </>
+    </BrowserRouter>
   );
 }
 

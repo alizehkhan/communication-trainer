@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router-dom';
+import { LINKS } from '../content/links';
+
 const Navigation = () => {
   return (
     <header>
@@ -6,18 +9,11 @@ const Navigation = () => {
           Haneen Khan
         </a>
         <ul className="flex gap-8">
-          <li>
-            <a href="">Approach</a>
-          </li>
-          <li>
-            <a href="">Workshops</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
+          {LINKS.map((link, index) => (
+            <li key={index}>
+              <NavLink to={link.to}>{link.name}</NavLink>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
