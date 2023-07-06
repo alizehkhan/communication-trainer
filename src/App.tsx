@@ -7,6 +7,7 @@ import Quote from './sections/Quote';
 import Workshops from './sections/Workshops';
 import Contact from './sections/Contact';
 import Testimonial from './sections/Testimonial';
+import Footer from './ components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Testimonial />
       <Contact />
+      <Footer />
     </BrowserRouter>
   );
 }

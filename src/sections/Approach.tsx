@@ -1,6 +1,6 @@
 const Approach = () => {
   return (
-    <div className="bg-gray-800 text-white py-24">
+    <div className="bg-gray-800 text-white py-24 text-center">
       <h2 className="uppercase text-white container tracking-wider font-bold mb-4">
         Approach
       </h2>

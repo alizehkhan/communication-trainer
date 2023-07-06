@@ -1,11 +1,11 @@
 const Testimonial = () => {
   return (
     <div className="bg-gray-100 py-24 text-gray-500">
-      <div className="container">
+      <div className="max-w-xl mx-auto p-6">
         <p className="text-xl font-bold mb-4">
           Nonviolent communication workshop
         </p>
-        <p className="max-w-lg font-serif">
+        <p className="font-serif">
           Lorem ipsum dolor sit amet consectetur. Libero iaculis at dignissim
           gravida molestie pretium blandit est eu. Condimentum vitae venenatis
           turpis semper. Id leo fermentum est enim. Elit cras accumsan at id

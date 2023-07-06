@@ -6,14 +6,14 @@ const Hero = () => {
       <Navigation />
       <div className="container mx-auto flex justify-end mt-20">
         <div>
-          <h1 className="text-white text-6xl font-bold max-w-[500px] font-serif leading-tight">
+          <h1 className="text-white md:text-6xl text-4xl font-bold max-w-[500px] font-serif md:leading-tight leading-normal">
             Transform relationships and culture in the workplace
           </h1>
-          <p className="text-white max-w-[440px] text-2xl">
+          <p className="text-white max-w-[440px] md:text-2xl text-lg">
             Recreate a sense of community, common purpose and collaboration with
             communication workshops
           </p>
-          <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold">
+          <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold hover:bg-amber-800">
             Book free consultation
           </button>
         </div>

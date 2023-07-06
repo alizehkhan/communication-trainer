@@ -2,7 +2,7 @@ import { col1, col2, col3 } from '../content/workshops';
 
 const Workshops = () => {
   return (
-    <div className="container my-24 text-gray-700">
+    <div className="container my-24 text-gray-700 text-center">
       <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
         Workshops
       </h2>

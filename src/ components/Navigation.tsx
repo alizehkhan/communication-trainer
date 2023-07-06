@@ -8,7 +8,7 @@ const Navigation = () => {
         <a href="" className="font-serif text-xl">
           Haneen Khan
         </a>
-        <ul className="flex gap-8">
+        <ul className="gap-8 hidden md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
               <NavLink to={link.to}>{link.name}</NavLink>

@@ -12,6 +12,9 @@ const Contact = () => {
         gravida molestie pretium blandit est eu. Condimentum vitae venenatis
         turpis semper. Id leo fermentum est enim.
       </p>
+      <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold hover:bg-amber-800">
+        Book a call
+      </button>
     </div>
   );
 };
