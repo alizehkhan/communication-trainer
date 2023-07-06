@@ -6,7 +6,7 @@ const Workshops = () => {
       <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
         Workshops
       </h2>
-      <p className="font-serif text-5xl text-gray-700 font-bold">
+      <p className="font-serif md:text-5xl text-4xl text-gray-700 leading-tight font-bold">
         I touch on a range of topics
       </p>
       <div className="flex gap-8 mt-10 flex-wrap justify-center">

@@ -6,10 +6,10 @@ const Hero = () => {
       <Navigation />
       <div className="container mx-auto flex justify-end mt-20">
         <div>
-          <h1 className="text-white md:text-6xl text-4xl font-bold max-w-[500px] font-serif md:leading-tight leading-normal">
+          <h1 className="text-white md:text-6xl text-4xl font-bold max-w-[500px] font-serif md:leading-tight leading-tight">
             Transform relationships and culture in the workplace
           </h1>
-          <p className="text-white max-w-[440px] md:text-2xl text-lg">
+          <p className="text-white max-w-[440px] md:text-2xl text-lg mt-2">
             Recreate a sense of community, common purpose and collaboration with
             communication workshops
           </p>

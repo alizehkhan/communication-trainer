@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <header>
       <nav className="text-white flex justify-between container mx-auto py-10">
-        <a href="" className="font-serif text-xl">
+        <a href="/" className="font-serif text-xl hover:no-underline">
           Haneen Khan
         </a>
         <ul className="gap-8 hidden md:flex">
