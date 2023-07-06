@@ -1,5 +1,6 @@
+import { useRef } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
+
 import About from './sections/About';
 import Approach from './sections/Approach';
 import Hero from './sections/Hero';
@@ -9,16 +10,25 @@ import Contact from './sections/Contact';
 import Testimonial from './sections/Testimonial';
 import Footer from './ components/Footer';
 
+import './index.css';
+
 function App() {
+  const sectionRefs = {
+    approach: useRef(null),
+    workshops: useRef(null),
+    about: useRef(null),
+    contact: useRef(null),
+  };
+
   return (
     <BrowserRouter>
-      <Hero />
-      <Approach />
-      <Workshops />
+      <Hero refs={sectionRefs} />
+      <Approach ref={sectionRefs.approach} />
+      <Workshops ref={sectionRefs.workshops} />
       <Quote />
-      <About />
+      <About ref={sectionRefs.about} />
       <Testimonial />
-      <Contact />
+      <Contact ref={sectionRefs.contact} />
       <Footer />
     </BrowserRouter>
   );

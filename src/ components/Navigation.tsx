@@ -1,7 +1,6 @@
-import { NavLink } from 'react-router-dom';
 import { LINKS } from '../content/links';
 
-const Navigation = () => {
+const Navigation = ({ refs }: { refs: any }) => {
   return (
     <header>
       <nav className="text-white flex justify-between container mx-auto py-10">
@@ -11,7 +10,18 @@ const Navigation = () => {
         <ul className="gap-8 hidden md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
-              <NavLink to={link.to}>{link.name}</NavLink>
+              <a
+                href={`#${link.to}`}
+                onClick={(event) => {
+                  event?.preventDefault();
+                  refs[link.to].current?.scrollIntoView({
+                    block: 'start',
+                    behavior: 'smooth',
+                  });
+                }}
+              >
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>

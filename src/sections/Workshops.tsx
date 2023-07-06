@@ -1,8 +1,13 @@
+import { Ref, forwardRef } from 'react';
 import { col1, col2, col3 } from '../content/workshops';
 
-const Workshops = () => {
+const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
-    <div className="container my-24 text-gray-700 text-center">
+    <div
+      className="container py-24 text-gray-700 text-center"
+      ref={ref}
+      id="workshops"
+    >
       <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
         Workshops
       </h2>
@@ -46,6 +51,6 @@ const Workshops = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Workshops;

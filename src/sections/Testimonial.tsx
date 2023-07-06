@@ -3,7 +3,7 @@ const Testimonial = () => {
     <div className="bg-gray-100 py-20 text-gray-500">
       <div className="max-w-xl mx-auto px-6">
         <p className="text-xl font-bold mb-4">
-          Nonviolent communication workshop
+          Non-violent communication workshop
         </p>
         <p className="font-serif">
           Lorem ipsum dolor sit amet consectetur. Libero iaculis at dignissim

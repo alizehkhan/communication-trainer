@@ -1,9 +1,9 @@
 import Navigation from '../ components/Navigation';
 
-const Hero = () => {
+const Hero = ({ refs }: { refs: any }) => {
   return (
     <div className="bg-[url('/hero.png')] h-screen bg-cover">
-      <Navigation />
+      <Navigation refs={refs} />
       <div className="container mx-auto flex justify-end mt-20">
         <div>
           <h1 className="text-white md:text-6xl text-4xl font-bold max-w-[500px] font-serif md:leading-tight leading-tight">

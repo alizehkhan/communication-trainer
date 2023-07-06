@@ -1,6 +1,8 @@
-const Contact = () => {
+import { Ref, forwardRef } from 'react';
+
+const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
-    <div className="my-24 container">
+    <div className="py-24 container" id="contact" ref={ref}>
       <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
         Contact
       </h2>
@@ -17,6 +19,6 @@ const Contact = () => {
       </button>
     </div>
   );
-};
+});
 
 export default Contact;
