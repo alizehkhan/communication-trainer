@@ -17,3 +17,6 @@ A client project. A single page website offering in-person and online communicat
 `yarn dev` to start the server
 
 Visit `http://localhost:5173/` to see the app
+
+![Screenshot of website](/screenshot1.png)
+![Screenshot of website](/screenshot3.png)
