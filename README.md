@@ -18,5 +18,5 @@ A client project. A single page website offering in-person and online communicat
 
 Visit `http://localhost:5173/` to see the app
 
-![Screenshot of website](/screenshot1.png)
-![Screenshot of website](/screenshot3.png)
+![screenshot1](https://github.com/alizehkhan/communication-trainer/assets/59119022/f8aba971-5681-433d-9bee-8a4078453070)
+![screenshot2](https://github.com/alizehkhan/communication-trainer/assets/59119022/b8108965-938b-46bd-830c-a1897e479217)
