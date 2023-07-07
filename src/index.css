@@ -53,3 +53,28 @@ header a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+blockquote {
+  position: relative;
+}
+
+@media screen and (min-width: 720px) {
+  q::before {
+    content: open-quote;
+    font-size: 300px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    left: -140px;
+    top: -120px;
+    position: absolute;
+    color: rgb(209, 213, 219);
+  }
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
