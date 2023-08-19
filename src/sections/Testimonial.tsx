@@ -7,11 +7,21 @@ const Testimonial = () => {
         </p>
         <blockquote>
           <q>
-            Lorem ipsum dolor sit amet consectetur. Libero iaculis at dignissim
-            gravida molestie pretium blandit est eu. Condimentum vitae venenatis
-            turpis semper. Id leo fermentum est enim. Elit cras accumsan at id
-            lacinia ac ut. Lorem ipsum dolor sit amet consectetur. Condimentum
-            vitae venenatis turpis semper.
+            I used to feel a lot of fear & reluctance going into difficult
+            conversations at work, often avoiding them altogether. After
+            Haneen's workshop, I was surprised how easy it was to engage in
+            these conversations that actually built trust and connection, rather
+            than create friction!!
+            <br />
+            <br />
+            I developed a lot more resilience in hearing the word “no”, which
+            makes it easier to formulate requests to colleagues and delegate
+            effectively.
+            <br />
+            <br />
+            In general, Haneen's tools really help make the team feel like a
+            supportive and trusting space where we can resolve problems quickly
+            - rather than one that is susceptive to complaints or gossip!
           </q>
           <cite className="font-bold mt-4 block">
             — Alizeh Khan, Frontend Engineer

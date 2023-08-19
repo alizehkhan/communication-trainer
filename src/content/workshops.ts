@@ -1,22 +1,5 @@
 export const col1 = [
   {
-    title: '🗣️ Gossip',
-    description:
-      'How to transform workplace gossip into a more safe & respectful culture.',
-  },
-  {
-    title: '💬 Sharing feedback',
-    description:
-      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
-  },
-  {
-    title: '🙅 Sharing Boundaries',
-    description:
-      'Saying no, asking for extensions, standing up for yourself etc. No more people pleasing!',
-  },
-];
-export const col2 = [
-  {
     title: '👂🏼 Listening to feedback',
     description: 'How to listen to feedback without taking it personally.',
   },
@@ -30,8 +13,26 @@ export const col2 = [
       "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
   },
   {
-    title: '🪜 Power dynamics',
-    description: 'How to express thoughts & concerns openly to superiors.',
+    title: '🏋️ Difficult Conversations',
+    description:
+      'Practices that help you engage in difficult conversations with more confidence.',
+  },
+];
+export const col2 = [
+  {
+    title: '🗣️ Gossip',
+    description:
+      'How to transform workplace gossip into a more safe & respectful culture.',
+  },
+  {
+    title: '💬 Sharing feedback',
+    description:
+      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
+  },
+  {
+    title: '🙅 Sharing Boundaries',
+    description:
+      'Saying no, asking for extensions, standing up for yourself etc. No more people pleasing!',
   },
 ];
 
@@ -51,8 +52,7 @@ export const col3 = [
     description: 'To help you express yourself authentically under pressure.',
   },
   {
-    title: '🏋️ Difficult Conversations',
-    description:
-      'Practices that help you engage in difficult conversations with more confidence.',
+    title: '🪜 Power dynamics',
+    description: 'How to express thoughts & concerns openly to superiors.',
   },
 ];
