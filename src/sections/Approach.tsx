@@ -10,15 +10,16 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       <h2 className="uppercase text-white container tracking-wider font-bold mb-4">
         Approach
       </h2>
-      <p className="font-serif md:text-5xl text-4xl leading-normal container mx-auto font-bold text-gray-200">
+      <p className="font-serif md:text-5xl text-4xl leading-normal tracking-[-1px] container mx-auto font-bold text-gray-200">
         My approach uses a blend of
       </p>
       <div className="flex justify-center md:mt-20 mt-10 container mx-auto flex-wrap md:gap-24 gap-16">
         <div className="w-[280px] text-center">
           <p className="font-serif text-2xl mb-3">Non-violent communication</p>
           <p className="text-gray-300">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet consequat nunc
-            cras nisl nascetur vitae blandit nam.
+            An approach to communication that is rooted in sharing one's
+            feelings & needs. It is not an attempt to end disagreements, but a
+            way to increase empathy and understanding.
           </p>
         </div>
         <div className="w-[280px] text-center">
@@ -26,15 +27,16 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
             Internal family systems therapy
           </p>
           <p className="text-gray-300">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet consequat nunc
-            cras nisl nascetur vitae blandit nam.
+            An evidence-based psychotherapy, helping people to access and heal
+            their parts such as the “inner critic” and “inner procrastinator”.
           </p>
         </div>
         <div className="w-[280px] text-center">
-          <p className="font-serif text-2xl mb-3">Somatic experiencing</p>
+          <p className="font-serif text-2xl mb-3">Authentic Relating</p>
           <p className="text-gray-300">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet consequat nunc
-            cras nisl nascetur vitae blandit nam.
+            Centered around expressing one's true feelings and emotions, showing
+            vulnerability and allowing oneself to connect fully from your heart
+            in the company of others.
           </p>
         </div>
       </div>
@@ -42,15 +44,15 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         <div className="w-[280px] text-center">
           <p className="font-serif text-2xl mb-3">Radical honesty</p>
           <p className="text-gray-300">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet consequat nunc
-            cras nisl nascetur vitae blandit nam.
+            A process to directly express and get over anger, reduce stress, and
+            create real connection with others.
           </p>
         </div>
         <div className="w-[280px] text-center">
-          <p className="font-serif text-2xl mb-3">Authentic Relating</p>
+          <p className="font-serif text-2xl mb-3">Somatic experiencing</p>
           <p className="text-gray-300">
-            Lorem ipsum dolor sit amet consectetur. Vitae amet consequat nunc
-            cras nisl nascetur vitae blandit nam.
+            A body-oriented therapeutic model that helps heal trauma and other
+            stress disorders
           </p>
         </div>
       </div>

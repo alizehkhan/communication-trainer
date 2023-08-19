@@ -2,12 +2,12 @@ export const col1 = [
   {
     title: '🗣️ Gossip',
     description:
-      'How to transform workplace gossip into a more safe & respectful culture',
+      'How to transform workplace gossip into a more safe & respectful culture.',
   },
   {
     title: '💬 Sharing feedback',
     description:
-      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”)",
+      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
   },
   {
     title: '🙅 Sharing Boundaries',
@@ -18,20 +18,20 @@ export const col1 = [
 export const col2 = [
   {
     title: '👂🏼 Listening to feedback',
-    description: 'How to listen to feedback without taking it personally',
+    description: 'How to listen to feedback without taking it personally.',
   },
   {
     title: '😶 Art of interruption',
     description: "When people speak for longer than you've enjoyed.",
   },
   {
-    title: '💚 Empathy',
+    title: '🌱 Empathy',
     description:
       "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
   },
   {
     title: '🪜 Power dynamics',
-    description: 'How to express thoughts & concerns openly to superiors',
+    description: 'How to express thoughts & concerns openly to superiors.',
   },
 ];
 
@@ -48,7 +48,11 @@ export const col3 = [
   },
   {
     title: '🧘 Self regulate',
+    description: 'To help you express yourself authentically under pressure.',
+  },
+  {
+    title: '🏋️ Difficult Conversations',
     description:
-      'How to self-regulate if you notice you are super triggered in the office',
+      'Practices that help you engage in difficult conversations with more confidence.',
   },
 ];
