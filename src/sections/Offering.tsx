@@ -8,18 +8,18 @@ const Offering = () => {
         <div className="flex gap-8 items-center">
           <p className="text-8xl text-gray-500 font-bold font-serif w-10">1</p>
           <div>
-            <p className="text-gray-300 text-4xl font-bold max-w-[540px] font-serif">
+            <p className="text-gray-300 text-4xl max-w-[540px] font-serif">
               Workshops
             </p>
             <p className="font-sans text-gray-200 text-lg mt-2">
-              Experiential, live team workshops for 10-100 people
+              Experiential, live team workshops for 10–100 people
             </p>
           </div>
         </div>
         <div className="flex gap-8 items-center mt-8">
           <p className="text-8xl text-gray-500 font-bold font-serif w-10">2</p>
           <div>
-            <p className="text-gray-300 text-4xl font-bold max-w-[540px] font-serif">
+            <p className="text-gray-300 text-4xl max-w-[540px] font-serif">
               Speaking engagements
             </p>
             <p className="font-sans text-gray-200 text-lg mt-2">

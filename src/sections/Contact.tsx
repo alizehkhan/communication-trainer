@@ -7,7 +7,7 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         Contact
       </h2>
       <p className="font-serif md:text-5xl text-4xl tracking-[-1px] text-gray-600 font-bold">
-        Get in touch
+        hello@haneenkhan.com
       </p>
       <p className="text-xl max-w-2xl text-gray-600 mt-8">
         All my workshops are easily adapted for companies, and can be offered

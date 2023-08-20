@@ -41,14 +41,14 @@ function App() {
       <img
         src="coaching.jpg"
         alt=""
-        className="md:h-[75vh] h-60 object-cover w-full"
+        className="md:h-[600px] h-60 object-cover w-full"
       />
       <About ref={sectionRefs.about} />
       <Testimonial />
       <img
         src="workshop.jpg"
         alt=""
-        className="md:h-[75vh] h-60 object-cover w-full"
+        className="md:h-[600px] h-60 object-cover w-full"
       />
       <Contact ref={sectionRefs.contact} />
       <Footer />

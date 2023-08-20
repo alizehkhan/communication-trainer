@@ -9,12 +9,12 @@ const About = forwardRef((_, ref: Ref<HTMLDivElement>) => (
       Hi, I'm Haneen
     </p>
     <p className="text-xl max-w-2xl text-gray-600 mt-8">
-      Haneen is a coach, facilitator and teacher conducting one-on-one coaching
-      and courses in communication & conflict. She developed her integrative
-      approach over the last 5 years, and has taught hundreds of people.
+      I am a coach, facilitator and teacher conducting one-on-one coaching and
+      courses in communication & conflict. I developed my integrative approach
+      over the last 5 years, and have taught hundreds of people.
     </p>
     <p className="text-xl max-w-2xl text-gray-600 mt-8">
-      She helps employees uproot unhelpful communication patterns that cause
+      I help employees uproot unhelpful communication patterns that cause
       conflict avoidance, micro-management, resentment and demotivation! And
       transform this into a heart-led culture that brings more efficiency and
       psychological safety into the workplace.
