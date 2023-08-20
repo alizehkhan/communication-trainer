@@ -38,9 +38,18 @@ function App() {
       </div>
       <Workshops ref={sectionRefs.workshops} />
       <Quote />
-      <img src="coaching.jpg" alt="" className="h-[75vh] object-cover w-full" />
+      <img
+        src="coaching.jpg"
+        alt=""
+        className="md:h-[75vh] h-60 object-cover w-full"
+      />
       <About ref={sectionRefs.about} />
       <Testimonial />
+      <img
+        src="workshop.jpg"
+        alt=""
+        className="md:h-[75vh] h-60 object-cover w-full"
+      />
       <Contact ref={sectionRefs.contact} />
       <Footer />
     </BrowserRouter>

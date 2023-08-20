@@ -6,11 +6,9 @@ const Hero = ({ refs }: { refs: any }) => {
       <Navigation refs={refs} />
       <div className="container mx-auto flex mt-20">
         <div>
-          <h1 className="text-white opacity-80 md:text-[56px] text-4xl font-bold max-w-[540px] font-serif md:leading-[1.12] leading-tight">
-            Bring
-          </h1>
-          <h1 className="text-white opacity-80 md:text-[56px] text-4xl font-bold max-w-[540px] font-serif md:leading-[1.12] leading-tight">
-            radically clear communication to your workplace
+          <h1 className="text-white opacity-80 md:text-[56px] text-4xl max-w-[520px] font-serif md:leading-[1.12] leading-tight">
+            <span className="block">Bring</span> radically clear communication
+            to your workplace
           </h1>
           <p className="text-white opacity-80 max-w-[440px] md:text-2xl text-lg mt-2">
             The key to greater engagement & efficiency in the workplace
