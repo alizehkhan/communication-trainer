@@ -4,15 +4,15 @@ const Hero = ({ refs }: { refs: any }) => {
   return (
     <div className="bg-[url('/hero.png')] min-h-screen bg-cover">
       <Navigation refs={refs} />
-      <div className="container mx-auto flex justify-end mt-20">
+      <div className="container mx-auto flex mt-20">
         <div>
-          <h1 className="text-white opacity-80 md:text-5xl text-4xl font-bold max-w-[500px] font-serif md:leading-[1.12] leading-tight">
+          <h1 className="text-white opacity-80 md:text-[56px] text-4xl font-bold max-w-[540px] font-serif md:leading-[1.12] leading-tight">
             Bring
           </h1>
-          <h1 className="text-white opacity-80 md:text-5xl text-4xl font-bold max-w-[500px] font-serif md:leading-[1.12] leading-tight">
+          <h1 className="text-white opacity-80 md:text-[56px] text-4xl font-bold max-w-[540px] font-serif md:leading-[1.12] leading-tight">
             radically clear communication to your workplace
           </h1>
-          <p className="text-white max-w-[440px] md:text-2xl text-lg mt-2">
+          <p className="text-white opacity-80 max-w-[440px] md:text-2xl text-lg mt-2">
             The key to greater engagement & efficiency in the workplace
           </p>
           <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold hover:bg-amber-800">
