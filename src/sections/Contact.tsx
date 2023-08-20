@@ -3,10 +3,10 @@ import { Ref, forwardRef } from 'react';
 const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="py-24 container" id="contact" ref={ref}>
-      <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
+      <h2 className="uppercase text-gray-600 tracking-wider font-bold mb-4">
         Contact
       </h2>
-      <p className="font-serif md:text-5xl text-4xl tracking-[-1px] text-gray-700 font-bold">
+      <p className="font-serif md:text-5xl text-4xl tracking-[-1px] text-gray-600 font-bold">
         Get in touch
       </p>
       <p className="text-xl max-w-2xl text-gray-600 mt-8">

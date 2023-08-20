@@ -3,7 +3,7 @@ import { Ref, forwardRef } from 'react';
 const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div
-      className="bg-white text-gray-600 py-24 text-center"
+      className="bg-white text-gray-600 pb-24 pt-20 text-center"
       id="approach"
       ref={ref}
     >
@@ -13,14 +13,13 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       <p className="font-serif md:text-5xl text-4xl leading-normal tracking-[-1px] container mx-auto font-bold text-gray-600">
         My approach uses a blend of
       </p>
-      <div className="flex justify-center md:mt-20 mt-10 container mx-auto flex-wrap md:gap-24 gap-16">
+      <div className="flex justify-center mt-10 container mx-auto flex-wrap md:gap-24 gap-16 items-center">
         <div className="w-[280px] text-center">
-          <img src="nvc.png" alt="" className="w-40 mx-auto mb-4" />
+          <img src="nvc.png" alt="" className="w-36 mx-auto mb-4" />
           <p className="font-serif text-2xl mb-3">Non-violent communication</p>
           <p className="text-gray-600">
-            An approach rooted in sharing one's feelings & needs. It is not an
-            attempt to end disagreements, but a way to increase empathy and
-            understanding.
+            Rooted in sharing one's feelings & needs. It is not an attempt to
+            end disagreements, but a way to increase empathy and understanding.
           </p>
         </div>
         <div className="w-[280px] text-center">
@@ -43,9 +42,9 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-16 container mx-auto flex-wrap md:gap-24 gap-16">
+      <div className="flex justify-center mt-16 container mx-auto flex-wrap md:gap-24 gap-16 items-end">
         <div className="w-[280px] text-center">
-          <img src="rh.png" alt="" className="w-24 mx-auto mb-2" />
+          <img src="rh.png" alt="" className="w-20 mx-auto mb-2" />
           <p className="font-serif text-2xl mb-3">Radical honesty</p>
           <p className="text-gray-600">
             A process to directly express and get over anger, reduce stress, and

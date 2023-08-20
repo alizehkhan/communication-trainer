@@ -4,14 +4,14 @@ import { col1, col2, col3 } from '../content/workshops';
 const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div
-      className="container py-24 text-gray-700 text-center"
+      className="container py-24 text-gray-600 text-center"
       ref={ref}
       id="workshops"
     >
-      <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
+      <h2 className="uppercase text-gray-600 tracking-wider font-bold mb-4">
         Workshops
       </h2>
-      <p className="font-serif md:text-5xl tracking-[-1px] text-4xl text-gray-700 leading-tight font-bold">
+      <p className="font-serif md:text-5xl tracking-[-1px] text-4xl text-gray-600 leading-tight font-bold">
         I touch on a range of topics
       </p>
       <div className="flex gap-8 mt-10 flex-wrap justify-center">

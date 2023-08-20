@@ -2,10 +2,10 @@ import { Ref, forwardRef } from 'react';
 
 const About = forwardRef((_, ref: Ref<HTMLDivElement>) => (
   <div className="container mx-auto py-20" id="about" ref={ref}>
-    <h2 className="uppercase text-gray-700 tracking-wider font-bold mb-4">
+    <h2 className="uppercase text-gray-600 tracking-wider font-bold mb-4">
       About
     </h2>
-    <p className="text-gray-700 font-serif md:text-5xl text-4xl tracking-[-1px] font-bold">
+    <p className="text-gray-600 font-serif md:text-5xl text-4xl tracking-[-1px] font-bold">
       Hi, I'm Haneen
     </p>
     <p className="text-xl max-w-2xl text-gray-600 mt-8">
