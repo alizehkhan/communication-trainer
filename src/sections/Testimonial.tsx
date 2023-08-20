@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return (
-    <div className="bg-gray-100 py-16 text-gray-500 text-center">
+    <div className="bg-gray-100 py-16 text-gray-500">
       <div className="max-w-xl mx-auto px-6">
         <p className="text-xl font-bold mb-4 font-serif">
           Non-violent communication workshop
@@ -27,7 +27,7 @@ const Testimonial = () => {
             — Alizeh Khan, Frontend Engineer
           </cite>
         </blockquote>
-        <img src="/hellofresh.png" className="h-10 mt-4 mx-auto" alt="" />
+        <img src="/hellofresh.png" className="h-10 mt-4" alt="" />
       </div>
     </div>
   );
