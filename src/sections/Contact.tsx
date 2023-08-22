@@ -17,13 +17,13 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         simple solution that delivers.
       </p>
       <form action="" className="text-gray-700">
-        <Input id="name" width="md:w-[50ch]" required>
+        <Input id="name" width="md:w-[30ch]" required>
           Name
         </Input>
-        <Input id="email" width="md:w-[50ch]" required>
+        <Input id="email" width="md:w-[40ch]" required>
           Email
         </Input>
-        <Input id="company-website" width="md:w-[50ch]" required>
+        <Input id="company-website" width="md:w-[40ch]" required>
           Company website / social
         </Input>
         <TextArea
