@@ -13,7 +13,7 @@ const Hero = ({ refs }: { refs: any }) => {
           <p className="text-white opacity-80 max-w-[440px] md:text-2xl text-lg mt-2">
             The key to greater engagement & efficiency in the workplace
           </p>
-          <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold hover:bg-amber-800">
+          <button className="bg-amber-700 text-white py-3 px-6 mt-4 rounded-md font-bold hover:bg-amber-800">
             Get a quote
           </button>
         </div>

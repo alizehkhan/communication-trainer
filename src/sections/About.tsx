@@ -26,7 +26,7 @@ const About = forwardRef((_, ref: Ref<HTMLDivElement>) => (
       you'll be able to understand what you need from a co-worker or supervisor
       and deliver this kindly & directly, rather than abrasively or tacitly.
     </p>
-    <button className="bg-amber-700 text-white py-3 px-4 mt-4 rounded-md font-bold hover:bg-amber-800">
+    <button className="bg-amber-700 text-white py-3 px-6 mt-4 rounded-md font-bold hover:bg-amber-800">
       Get in touch
     </button>
   </div>
