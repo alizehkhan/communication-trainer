@@ -13,9 +13,19 @@ const Hero = ({ refs }: { refs: any }) => {
           <p className="mt-2 max-w-[440px] text-lg text-white opacity-80 md:text-2xl">
             The key to greater engagement & efficiency in the workplace
           </p>
-          <button className="mt-4 rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800">
+          <a
+            className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800 focus:outline focus:outline-4 focus:outline-orange-300 md:mt-6"
+            href="#contact"
+            onClick={(event) => {
+              event?.preventDefault();
+              refs["contact"].current?.scrollIntoView({
+                block: "start",
+                behavior: "smooth",
+              });
+            }}
+          >
             Get a quote
-          </button>
+          </a>
         </div>
       </div>
     </div>

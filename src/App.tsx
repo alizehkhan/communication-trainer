@@ -4,7 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 import About from "./sections/About";
 import Approach from "./sections/Approach";
 import Hero from "./sections/Hero";
-import Quote from "./sections/Quote";
+import Quote1 from "./sections/Quote1";
+import Quote2 from "./sections/Quote2";
 import Workshops from "./sections/Workshops";
 import Contact from "./sections/Contact";
 import Testimonial from "./sections/Testimonial";
@@ -26,23 +27,15 @@ function App() {
       <Hero refs={sectionRefs} />
       <Offering />
       <Approach ref={sectionRefs.approach} />
-      <div className="bg-gray-100 py-24 text-center font-serif text-4xl leading-snug tracking-[-1px] text-gray-600 md:text-5xl md:leading-tight">
-        <p className="mx-auto max-w-4xl px-4">
-          Stay connected, motivated and create {""}
-          <span className="italic text-amber-700">
-            psychological safety
-          </span>{" "}
-          for difficult conversations.
-        </p>
-      </div>
+      <Quote1 />
       <Workshops ref={sectionRefs.workshops} />
-      <Quote />
+      <Quote2 />
       <img
         src="coaching.jpg"
         alt=""
         className="aspect-video w-full object-cover md:aspect-[16/6]"
       />
-      <About ref={sectionRefs.about} />
+      <About refs={sectionRefs} ref={sectionRefs.about} />
       <Testimonial />
       <img
         src="workshop.jpg"

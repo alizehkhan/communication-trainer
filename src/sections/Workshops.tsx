@@ -1,27 +1,27 @@
-import { Ref, forwardRef } from 'react';
-import { col1, col2, col3 } from '../content/workshops';
+import { Ref, forwardRef } from "react";
+import { col1, col2, col3 } from "../content/workshops";
 
 const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div
-      className="container py-24 text-gray-600 text-center"
+      className="container py-24 text-center text-gray-600"
       ref={ref}
       id="workshops"
     >
-      <h2 className="uppercase text-gray-600 tracking-wider font-bold mb-4">
+      <h2 className="mb-4 font-bold uppercase tracking-wider text-gray-600">
         Workshops
       </h2>
-      <p className="font-serif md:text-5xl tracking-[-1px] text-4xl text-gray-600 leading-tight font-bold">
+      <p className="font-serif text-4xl font-bold leading-tight tracking-[-1px] text-gray-600 md:text-5xl">
         I touch on a range of topics
       </p>
-      <div className="flex gap-8 mt-10 flex-wrap justify-center">
+      <div className="mt-10 flex flex-wrap justify-center gap-8">
         <div className="flex flex-col gap-8">
           {col1.map((topic, index) => (
             <div
               key={index}
-              className="bg-gray-100 w-72 py-8 px-4 rounded-md text-center shadow-sm"
+              className="w-72 rounded-md bg-gray-100 px-4 py-8 text-center shadow-sm"
             >
-              <p className="font-serif font-bold text-lg mb-2">{topic.title}</p>
+              <p className="mb-2 font-serif text-lg font-bold">{topic.title}</p>
               <p className="text-lg">{topic.description}</p>
             </div>
           ))}
@@ -30,9 +30,9 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
           {col2.map((topic, index) => (
             <div
               key={index}
-              className="bg-gray-100 w-72 py-8 px-4 rounded-md text-center shadow-sm"
+              className="w-72 rounded-md bg-gray-100 px-4 py-8 text-center shadow-sm"
             >
-              <p className="font-serif font-bold text-lg mb-2">{topic.title}</p>
+              <p className="mb-2 font-serif text-lg font-bold">{topic.title}</p>
               <p className="text-lg">{topic.description}</p>
             </div>
           ))}
@@ -41,9 +41,9 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
           {col3.map((topic, index) => (
             <div
               key={index}
-              className="bg-gray-100 w-72 py-8 px-4 rounded-md text-center shadow-sm"
+              className="w-72 rounded-md bg-gray-100 px-4 py-8 text-center shadow-sm"
             >
-              <p className="font-serif font-bold text-lg mb-2">{topic.title}</p>
+              <p className="mb-2 font-serif text-lg font-bold">{topic.title}</p>
               <p className="text-lg">{topic.description}</p>
             </div>
           ))}
