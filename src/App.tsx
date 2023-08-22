@@ -1,17 +1,17 @@
-import { useRef } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { useRef } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import About from './sections/About';
-import Approach from './sections/Approach';
-import Hero from './sections/Hero';
-import Quote from './sections/Quote';
-import Workshops from './sections/Workshops';
-import Contact from './sections/Contact';
-import Testimonial from './sections/Testimonial';
-import Offering from './sections/Offering';
-import Footer from './components/Footer';
+import About from "./sections/About";
+import Approach from "./sections/Approach";
+import Hero from "./sections/Hero";
+import Quote from "./sections/Quote";
+import Workshops from "./sections/Workshops";
+import Contact from "./sections/Contact";
+import Testimonial from "./sections/Testimonial";
+import Offering from "./sections/Offering";
+import Footer from "./components/Footer";
 
-import './index.css';
+import "./index.css";
 
 function App() {
   const sectionRefs = {
@@ -26,13 +26,12 @@ function App() {
       <Hero refs={sectionRefs} />
       <Offering />
       <Approach ref={sectionRefs.approach} />
-      <div className="bg-gray-100 py-24 font-serif md:text-5xl text-4xl text-center md:leading-tight tracking-[-1px] leading-snug text-gray-600">
-        <p className="max-w-4xl px-4 mx-auto">
-          Stay connected, motivated and create {''}
+      <div className="bg-gray-100 py-24 text-center font-serif text-4xl leading-snug tracking-[-1px] text-gray-600 md:text-5xl md:leading-tight">
+        <p className="mx-auto max-w-4xl px-4">
+          Stay connected, motivated and create {""}
           <span className="italic text-amber-700">
             psychological safety
-          </span>{' '}
-          {''}
+          </span>{" "}
           for difficult conversations.
         </p>
       </div>
@@ -41,14 +40,14 @@ function App() {
       <img
         src="coaching.jpg"
         alt=""
-        className="md:h-[600px] h-60 object-cover w-full"
+        className="aspect-video w-full object-cover md:aspect-[16/6]"
       />
       <About ref={sectionRefs.about} />
       <Testimonial />
       <img
         src="workshop.jpg"
         alt=""
-        className="md:h-[600px] h-60 object-cover w-full"
+        className="aspect-video w-full object-cover md:aspect-[16/6]"
       />
       <Contact ref={sectionRefs.contact} />
       <Footer />
