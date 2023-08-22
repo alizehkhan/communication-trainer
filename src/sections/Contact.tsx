@@ -9,7 +9,7 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         Contact
       </h2>
       <p className="font-serif text-4xl font-bold tracking-[-1px] text-gray-600 md:text-5xl">
-        hello@haneenkhan.com
+        Get in touch
       </p>
       <p className="mt-8 max-w-2xl text-xl text-gray-600">
         All my workshops are easily adapted for companies, and can be offered
@@ -20,11 +20,11 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         <Input id="name" width="md:w-[30ch]" required>
           Name
         </Input>
-        <Input id="email" width="md:w-[40ch]" required>
+        <Input id="email" width="md:w-[40ch]" type="email" required>
           Email
         </Input>
-        <Input id="company-website" width="md:w-[40ch]" required>
-          Company website / social
+        <Input id="company-website" width="md:w-[40ch]" type="url" required>
+          Company website
         </Input>
         <TextArea
           required
