@@ -23,7 +23,13 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         <Input id="email" width="md:w-[40ch]" type="email" required>
           Email
         </Input>
-        <Input id="company-website" width="md:w-[40ch]" type="url" required>
+        <Input
+          id="company-website"
+          width="md:w-[40ch]"
+          type="url"
+          placeholder="https://"
+          required
+        >
           Company website
         </Input>
         <TextArea

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -63,7 +63,7 @@ blockquote {
     content: open-quote;
     font-size: 300px;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     left: -140px;
     top: -120px;
     position: absolute;
@@ -77,4 +77,10 @@ q::before {
 
 q::after {
   content: close-quote;
+}
+
+video {
+  object-fit: cover;
+  height: auto !important;
+  aspect-ratio: 16/7;
 }

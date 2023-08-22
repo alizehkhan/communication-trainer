@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { BrowserRouter } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 import About from "./sections/About";
 import Approach from "./sections/Approach";
@@ -37,10 +38,13 @@ function App() {
       />
       <About refs={sectionRefs} ref={sectionRefs.about} />
       <Testimonial />
-      <img
-        src="workshop.jpg"
-        alt=""
-        className="aspect-video w-full object-cover md:aspect-[16/6]"
+      <ReactPlayer
+        url="workshop.mp4"
+        playing
+        loop
+        muted
+        width="100vw"
+        height="100%"
       />
       <Contact ref={sectionRefs.contact} />
       <Footer />
