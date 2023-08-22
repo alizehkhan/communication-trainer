@@ -29,7 +29,7 @@ const About = forwardRef(
         or tacitly.
       </p>
       <a
-        className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800 focus:outline focus:outline-4 focus:outline-orange-300"
+        className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white outline-offset-0 hover:bg-amber-800 focus:outline focus:outline-4 focus:outline-orange-300"
         href="#contact"
         onClick={(event) => {
           event?.preventDefault();

@@ -27,7 +27,7 @@ function App() {
       <Hero refs={sectionRefs} />
       <Offering />
       <Approach ref={sectionRefs.approach} />
-      <Quote1 />
+      <Quote1 refs={sectionRefs} />
       <Workshops ref={sectionRefs.workshops} />
       <Quote2 />
       <img
