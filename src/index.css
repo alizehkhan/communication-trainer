@@ -81,6 +81,14 @@ q::after {
 
 video {
   object-fit: cover;
-  height: auto !important;
   aspect-ratio: 16/7;
+}
+
+.hero {
+  background-image: linear-gradient(
+      190deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("/hero.png");
 }

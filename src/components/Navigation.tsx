@@ -1,13 +1,13 @@
-import { LINKS } from '../content/links';
+import { LINKS } from "../content/links";
 
 const Navigation = ({ refs }: { refs: any }) => {
   return (
     <header>
-      <nav className="text-white flex justify-between container mx-auto py-10">
+      <nav className="container mx-auto flex justify-between py-12 text-white">
         <a href="/" className="font-serif text-xl hover:no-underline">
           Haneen Khan
         </a>
-        <ul className="gap-8 hidden md:flex">
+        <ul className="hidden gap-8 font-bold md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
               <a
@@ -15,8 +15,8 @@ const Navigation = ({ refs }: { refs: any }) => {
                 onClick={(event) => {
                   event?.preventDefault();
                   refs[link.to].current?.scrollIntoView({
-                    block: 'start',
-                    behavior: 'smooth',
+                    block: "start",
+                    behavior: "smooth",
                   });
                 }}
               >

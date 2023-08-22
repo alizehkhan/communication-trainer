@@ -2,7 +2,7 @@ import Navigation from "../components/Navigation";
 
 const Hero = ({ refs }: { refs: any }) => {
   return (
-    <div className="min-h-[100svh] bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat">
+    <div className="hero min-h-[100svh] bg-cover bg-center bg-no-repeat">
       <Navigation refs={refs} />
       <div className="container mx-auto mt-20 flex">
         <div>
