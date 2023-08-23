@@ -47,7 +47,6 @@ const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
           aria-describedby={`${id}-error`}
           id={id}
           name={id}
-          autoComplete="off"
           onInvalid={handleInvalid}
           onInput={() => setErrorMessage("")}
           ref={ref}
