@@ -4,14 +4,14 @@ import TextArea from "../components/TextArea";
 
 const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
-    <div className="container pb-10 pt-20" id="contact" ref={ref}>
-      <h2 className="mb-4 font-bold uppercase tracking-wider text-gray-600">
+    <div className="container pb-10 pt-16" id="contact" ref={ref}>
+      <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-600">
         Contact
       </h2>
       <p className="font-serif text-4xl font-bold tracking-[-1px] text-gray-600 md:text-5xl">
         Get in touch
       </p>
-      <p className="mt-8 max-w-2xl text-xl text-gray-600">
+      <p className="mt-8 max-w-xl text-lg text-gray-600">
         All my workshops are easily adapted for companies, and can be offered
         both in-person or online. I'm happy to explore your needs and offer a
         simple solution that delivers.

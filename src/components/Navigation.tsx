@@ -4,7 +4,7 @@ const Navigation = ({ refs }: { refs: any }) => {
   return (
     <header>
       <nav className="container mx-auto flex justify-between py-12 text-white">
-        <a href="/" className="font-serif text-xl hover:no-underline">
+        <a href="/" className="font-serif text-2xl hover:no-underline">
           Haneen Khan
         </a>
         <ul className="hidden gap-8 font-bold md:flex">

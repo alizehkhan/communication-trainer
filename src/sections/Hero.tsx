@@ -6,11 +6,11 @@ const Hero = ({ refs }: { refs: any }) => {
       <Navigation refs={refs} />
       <div className="container mx-auto mt-20 flex">
         <div>
-          <h1 className="max-w-[520px] font-serif text-4xl leading-tight text-white opacity-80 md:text-[56px] md:leading-[1.12]">
+          <h1 className="max-w-[465px] font-serif text-4xl font-bold leading-tight text-white opacity-80 md:text-[56px] md:leading-[1.12]">
             <span className="block">Bring</span> radically clear communication
             to your workplace
           </h1>
-          <p className="mt-2 max-w-[440px] text-lg text-white opacity-80 md:text-2xl">
+          <p className="mt-2 max-w-[440px] text-xl text-white opacity-80">
             The key to greater engagement & efficiency in the workplace
           </p>
           <a
@@ -24,7 +24,7 @@ const Hero = ({ refs }: { refs: any }) => {
               });
             }}
           >
-            Get a quote
+            Get in touch
           </a>
         </div>
       </div>

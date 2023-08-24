@@ -44,7 +44,7 @@ const TextArea = forwardRef(
             </span>
           )}
           <textarea
-            className="mt-2 block w-full rounded-md border-2 border-solid border-gray-400 p-3 text-xl hover:border-gray-500 focus:outline focus:outline-4 focus:outline-gray-300"
+            className="mt-1 block w-full rounded-md border-2 border-solid border-gray-400 p-3 text-xl hover:border-gray-500 focus:outline focus:outline-4 focus:outline-gray-300"
             aria-describedby={`${id}-error`}
             id={id}
             name={id}

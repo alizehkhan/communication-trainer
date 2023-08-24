@@ -3,7 +3,7 @@ const Offering = () => {
     <div className="bg-gray-800 py-16 md:py-20">
       <div className="container mx-auto text-gray-300">
         <div className="flex flex-col items-center justify-center gap-10 md:flex-row md:items-start">
-          <div className="flex max-w-lg flex-col items-center text-center md:flex-row md:gap-8 md:text-left">
+          <div className="flex max-w-md flex-col items-center text-center md:flex-row md:gap-8 md:text-left">
             <img
               src="workshop.jpg"
               alt=""
@@ -16,7 +16,7 @@ const Offering = () => {
               </p>
             </div>
           </div>
-          <div className="flex max-w-lg flex-col items-center text-center md:flex-row md:gap-8 md:text-left">
+          <div className="flex max-w-md flex-col items-center text-center md:flex-row md:gap-8 md:text-left">
             <img
               src="speaking.png"
               alt=""

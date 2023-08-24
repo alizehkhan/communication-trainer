@@ -27,9 +27,9 @@ function App() {
     <BrowserRouter>
       <Hero refs={sectionRefs} />
       <Offering />
-      <Approach ref={sectionRefs.approach} />
-      <Quote1 refs={sectionRefs} />
       <Workshops ref={sectionRefs.workshops} />
+      <Quote1 refs={sectionRefs} />
+      <Approach ref={sectionRefs.approach} />
       <Quote2 />
       <img
         src="coaching.jpg"
