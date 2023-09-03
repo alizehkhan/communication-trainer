@@ -26,7 +26,7 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </div>
         <div className="w-[280px] text-center">
           <img src="ifs.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mb-3 font-serif text-2xl font-bold">
+          <p className="mx-auto mb-3 w-[200px] font-serif text-2xl font-bold">
             Internal family systems therapy
           </p>
           <p className="text-gray-600">

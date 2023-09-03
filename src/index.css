@@ -92,3 +92,9 @@ video {
     ),
     url("/hero.png");
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 4px solid #fdba74;
+  border-radius: 4px;
+}

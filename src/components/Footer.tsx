@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center gap-2 py-6 text-sm text-gray-600">
+    <div className="flex justify-center gap-2 bg-gray-800 py-8 text-sm text-gray-100">
       <address>hello@haneenkhan.com</address> |
       <p>
         Website by {""}
