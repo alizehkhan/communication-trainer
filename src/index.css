@@ -65,7 +65,7 @@ blockquote {
     font-weight: bold;
     font-family: "Libre Baskerville", serif;
     left: -180px;
-    top: -100px;
+    top: -160px;
     position: absolute;
     color: rgb(209, 213, 219);
   }
@@ -96,5 +96,14 @@ video {
 a:focus-visible,
 button:focus-visible {
   outline: 4px solid #fdba74;
+  outline-offset: 3px;
   border-radius: 4px;
+}
+
+input:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }

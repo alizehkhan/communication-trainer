@@ -15,6 +15,7 @@ type InputProps = {
   width?: string;
 } & InputHTMLAttributes<HTMLInputElement>;
 
+// eslint-disable-next-line react/display-name
 const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
   const { id, children, width, hint, customErrorMessage, ...restProps } = props;
 
@@ -29,7 +30,11 @@ const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
 
   return (
     <div className={`w-full ${width}`}>
-      <label className="mt-4 block text-lg font-bold" htmlFor={id}>
+      <label
+        className="mt-4 block text-lg font-bold"
+        id={`${id}-label`}
+        htmlFor={id}
+      >
         {children}
       </label>
       {hint && <span id={`${id}-hint`}>{hint}</span>}
@@ -44,7 +49,7 @@ const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
         )}
         <input
           className="mt-1 block w-full rounded-md border-2 border-solid border-gray-400 p-3 text-xl hover:border-gray-500 focus:outline focus:outline-4 focus:outline-gray-300"
-          aria-describedby={`${id}-error`}
+          aria-labelledby={`${id}-label ${id}-hint ${id}-error`}
           id={id}
           name={id}
           onInvalid={handleInvalid}

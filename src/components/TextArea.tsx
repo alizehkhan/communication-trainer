@@ -13,6 +13,7 @@ type TextAreaProps = {
   width?: string;
 } & TextareaHTMLAttributes<HTMLTextAreaElement>;
 
+// eslint-disable-next-line react/display-name
 const TextArea = forwardRef(
   (props: TextAreaProps, ref?: Ref<HTMLTextAreaElement>) => {
     const { id, width, children, hint, ...restProps } = props;
@@ -26,7 +27,11 @@ const TextArea = forwardRef(
 
     return (
       <div className={`w-full ${width}`}>
-        <label className="mt-4 block text-lg font-bold" htmlFor={id}>
+        <label
+          className="mt-4 block text-lg font-bold"
+          id={`${id}-label`}
+          htmlFor={id}
+        >
           {children}
         </label>
         {hint && (
@@ -45,7 +50,7 @@ const TextArea = forwardRef(
           )}
           <textarea
             className="mt-2 block w-full rounded-md border-2 border-solid border-gray-400 p-3 text-xl hover:border-gray-500 focus:outline focus:outline-4 focus:outline-gray-300"
-            aria-describedby={`${id}-error`}
+            aria-labelledby={`${id}-label ${id}-hint ${id}-error`}
             id={id}
             name={id}
             autoComplete="off"

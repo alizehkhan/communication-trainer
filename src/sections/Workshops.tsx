@@ -1,6 +1,8 @@
 import { Ref, forwardRef } from "react";
+
 import { col1, col2, col3 } from "../content/workshops";
 
+// eslint-disable-next-line react/display-name
 const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div

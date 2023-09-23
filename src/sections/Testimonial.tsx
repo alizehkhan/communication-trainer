@@ -7,21 +7,21 @@ const Testimonial = () => {
         </p>
         <blockquote>
           <q>
-            I used to feel a lot of fear & reluctance going into difficult
-            conversations at work, often avoiding them altogether. After
-            Haneen's workshop, I was surprised how easy it was to engage in
-            these conversations that actually built trust and connection, rather
-            than create friction! I developed a lot more resilience in hearing
-            the word “no”, which makes it easier to formulate requests to
-            colleagues and delegate effectively.
-            <br />
-            <br />
-            In general, Haneen's tools really help make the team feel like a
-            supportive and trusting space where we can resolve problems quickly
-            - rather than one that is susceptive to complaints or gossip!
+            I used to feel a lot of reluctance going into difficult
+            conversations at work - I would even class myself as &quot;conflict
+            avoidant&quot;. After Haneen&apos;s workshop, I was surprised how
+            easy it was to bring up feedback that built trust and encouragement,
+            rather than awkwardness! We also practiced how to ask for what we
+            want from colleagues (being mindful of different positions of power)
+            and how to build in healthy boundaries so we don&apos;t burn out! In
+            general, Haneen&apos;s super warm approach helped our team feel more
+            open and &quot;human&quot;. I&apos;ve always found this kind of work
+            culture hard to re-create without having a shared language around
+            communication - and I highly recommend Haneen&apos;s facilitation
+            here! You&apos;re in trusted hands.
           </q>
           <cite className="mt-4 block font-bold">
-            — Alizeh Khan, Frontend Engineer
+            — Ariana, Senior Product Designer
           </cite>
         </blockquote>
         <img src="/hellofresh.png" className="mt-4 h-10" alt="" />

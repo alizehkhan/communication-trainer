@@ -1,5 +1,6 @@
 import { Ref, forwardRef } from "react";
 
+// eslint-disable-next-line react/display-name
 const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
     <div className="container mx-auto py-20" id="about" ref={ref}>
@@ -8,7 +9,7 @@ const About = forwardRef(
           About
         </h2>
         <p className="font-serif text-4xl font-bold tracking-[-1px] text-gray-600 md:text-5xl">
-          Hi, I'm Haneen
+          Hi, I&apos;m Haneen
         </p>
         <p className="mt-6 text-lg text-gray-600">
           I am a coach, facilitator and teacher conducting one-on-one coaching
@@ -25,12 +26,12 @@ const About = forwardRef(
           Most communication courses are all about a technique and focus on what
           to say or how to say it. But this misses a crucial first step: to
           develop a stronger relationship to your feelings and how you treat
-          them. From there, you'll be able to understand what you need from a
-          co-worker or supervisor and deliver this kindly & directly, rather
+          them. From there, you&apos;ll be able to understand what you need from
+          a co-worker or supervisor and deliver this kindly & directly, rather
           than abrasively or tacitly.
         </p>
         <a
-          className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white outline-offset-0 hover:bg-amber-800 focus:outline focus:outline-4 focus:outline-orange-300"
+          className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800"
           href="#contact"
           onClick={(event) => {
             event?.preventDefault();

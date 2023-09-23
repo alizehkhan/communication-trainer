@@ -1,7 +1,9 @@
 import { Ref, forwardRef } from "react";
+
 import Input from "../components/Input";
 import TextArea from "../components/TextArea";
 
+// eslint-disable-next-line react/display-name
 const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="container pb-10 pt-16" id="contact" ref={ref}>
@@ -13,8 +15,8 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       </p>
       <p className="mt-8 max-w-xl text-lg text-gray-600">
         All my workshops are easily adapted for companies, and can be offered
-        both in-person or online. I'm happy to explore your needs and offer a
-        simple solution that delivers.
+        both in-person or online. I&apos;m happy to explore your needs and offer
+        a simple solution that delivers.
       </p>
       <form action="" className="text-gray-700">
         <Input id="name" width="md:w-[30ch]" required>
@@ -43,7 +45,7 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </TextArea>
         <button
           type="submit"
-          className="mt-4 rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800 focus:outline focus:outline-4 focus:outline-orange-300"
+          className="mt-4 rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800"
         >
           Send
         </button>

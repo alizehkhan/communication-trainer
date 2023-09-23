@@ -1,5 +1,6 @@
 import { Ref, forwardRef } from "react";
 
+// eslint-disable-next-line react/display-name
 const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div
@@ -20,8 +21,9 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
             Non-violent communication
           </p>
           <p className="text-gray-600">
-            Rooted in sharing one's feelings & needs. It is not an attempt to
-            end disagreements, but a way to increase empathy and understanding.
+            Rooted in sharing one&apos;s feelings & needs. It is not an attempt
+            to end disagreements, but a way to increase empathy and
+            understanding.
           </p>
         </div>
         <div className="w-[280px] text-center">
@@ -40,9 +42,9 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
             Authentic Relating
           </p>
           <p className="text-gray-600">
-            Centered around expressing one's true feelings and emotions, showing
-            vulnerability and allowing oneself to connect fully from your heart
-            in the company of others.
+            Centered around expressing one&apos;s true feelings and emotions,
+            showing vulnerability and allowing oneself to connect fully from
+            your heart in the company of others.
           </p>
         </div>
       </div>
