@@ -7,10 +7,10 @@ import TextArea from "../components/TextArea";
 const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div className="container pb-10 pt-16" id="contact" ref={ref}>
-      <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-600">
+      <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-600">
         Contact
       </h2>
-      <p className="font-serif text-4xl font-bold tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
         Get in touch
       </p>
       <p className="mt-8 max-w-xl text-lg text-gray-600">
@@ -45,7 +45,7 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </TextArea>
         <button
           type="submit"
-          className="mt-4 rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800"
+          className="mt-4 rounded-md bg-amber-700 px-6 py-3 font-semibold text-white hover:bg-amber-800"
         >
           Send
         </button>

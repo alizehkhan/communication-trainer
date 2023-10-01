@@ -7,7 +7,7 @@ const Quote1 = ({ refs }: { refs: any }) => {
         difficult conversations.
       </p>
       <a
-        className="mt-6 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800"
+        className="mt-6 inline-block rounded-md bg-amber-700 px-6 py-3 font-semibold text-white hover:bg-amber-800"
         href="#contact"
         onClick={(event) => {
           event?.preventDefault();

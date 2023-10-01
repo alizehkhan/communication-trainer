@@ -5,10 +5,10 @@ const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
     <div className="container mx-auto py-20" id="about" ref={ref}>
       <div className="max-w-[70ch]">
-        <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-600">
+        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-600">
           About
         </h2>
-        <p className="font-serif text-4xl font-bold tracking-[-1px] text-gray-600 md:text-5xl">
+        <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
           Hi, I&apos;m Haneen
         </p>
         <p className="mt-6 text-lg text-gray-600">
@@ -31,7 +31,7 @@ const About = forwardRef(
           than abrasively or tacitly.
         </p>
         <a
-          className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white hover:bg-amber-800"
+          className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-semibold text-white hover:bg-amber-800"
           href="#contact"
           onClick={(event) => {
             event?.preventDefault();

@@ -8,16 +8,16 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       id="approach"
       ref={ref}
     >
-      <h2 className="container mb-3 text-sm font-bold uppercase tracking-wider text-gray-600">
+      <h2 className="container mb-3 text-sm font-semibold uppercase tracking-wider text-gray-600">
         Approach
       </h2>
-      <p className="container mx-auto font-serif text-4xl font-bold leading-normal tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="container mx-auto font-serif text-4xl font-semibold leading-normal tracking-[-1px] text-gray-600 md:text-5xl">
         My approach uses a blend of
       </p>
       <div className="container mx-auto mt-6 flex flex-wrap items-center justify-center gap-12 md:gap-16">
         <div className="w-[280px] text-center">
           <img src="nvc.png" alt="" className="mx-auto mb-4 w-36" />
-          <p className="mb-3 font-serif text-2xl font-bold">
+          <p className="mb-3 font-serif text-2xl font-semibold">
             Non-violent communication
           </p>
           <p className="text-gray-600">
@@ -28,7 +28,7 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </div>
         <div className="w-[280px] text-center">
           <img src="ifs.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mx-auto mb-3 w-[200px] font-serif text-2xl font-bold">
+          <p className="mx-auto mb-3 w-[200px] font-serif text-2xl font-semibold">
             Internal family systems therapy
           </p>
           <p className="text-gray-600">
@@ -38,7 +38,7 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </div>
         <div className="w-[280px] text-center">
           <img src="art.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mb-3 font-serif text-2xl font-bold">
+          <p className="mb-3 font-serif text-2xl font-semibold">
             Authentic Relating
           </p>
           <p className="text-gray-600">
@@ -51,7 +51,9 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       <div className="container mx-auto mt-12 flex flex-wrap items-end justify-center gap-12 md:gap-16">
         <div className="w-[280px] text-center">
           <img src="rh.png" alt="" className="mx-auto mb-2 w-20" />
-          <p className="mb-3 font-serif text-2xl font-bold">Radical honesty</p>
+          <p className="mb-3 font-serif text-2xl font-semibold">
+            Radical honesty
+          </p>
           <p className="text-gray-600">
             A process to directly express and get over anger, reduce stress, and
             create real connection with others.
@@ -59,7 +61,7 @@ const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         </div>
         <div className="w-[280px] text-center">
           <img src="se.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mb-3 font-serif text-2xl font-bold">
+          <p className="mb-3 font-serif text-2xl font-semibold">
             Somatic experiencing
           </p>
           <p className="text-gray-600">

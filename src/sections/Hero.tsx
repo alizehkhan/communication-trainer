@@ -6,7 +6,7 @@ const Hero = ({ refs }: { refs: any }) => {
       <Navigation refs={refs} />
       <div className="container mx-auto mt-20 flex">
         <div>
-          <h1 className="max-w-[465px] font-serif text-4xl font-bold leading-tight text-white opacity-80 md:text-[56px] md:leading-[1.12]">
+          <h1 className="max-w-[465px] font-serif text-4xl font-semibold leading-tight text-white opacity-80 md:text-[56px] md:leading-[1.12]">
             <span className="block">Bring</span> radically clear communication
             to your workplace
           </h1>
@@ -14,7 +14,7 @@ const Hero = ({ refs }: { refs: any }) => {
             The key to greater engagement & efficiency in the workplace
           </p>
           <a
-            className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-bold text-white outline-offset-0 hover:bg-amber-800 md:mt-6"
+            className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-semibold text-white outline-offset-0 hover:bg-amber-800 md:mt-6"
             href="#contact"
             onClick={(event) => {
               event?.preventDefault();

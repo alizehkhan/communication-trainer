@@ -7,7 +7,7 @@ const Navigation = ({ refs }: { refs: any }) => {
         <a href="/" className="font-serif text-2xl hover:no-underline">
           Haneen Khan
         </a>
-        <ul className="hidden gap-8 font-bold md:flex">
+        <ul className="hidden gap-8 font-semibold md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
               <a

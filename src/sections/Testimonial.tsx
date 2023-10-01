@@ -2,7 +2,7 @@ const Testimonial = () => {
   return (
     <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
-        <p className="mb-4 font-serif text-3xl font-bold">
+        <p className="mb-4 font-serif text-3xl font-semibold">
           Non-violent communication workshop
         </p>
         <blockquote>
@@ -20,7 +20,7 @@ const Testimonial = () => {
             communication - and I highly recommend Haneen&apos;s facilitation
             here! You&apos;re in trusted hands.
           </q>
-          <cite className="mt-4 block font-bold">
+          <cite className="mt-4 block font-semibold">
             — Ariana, Senior Product Designer
           </cite>
         </blockquote>

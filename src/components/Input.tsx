@@ -31,7 +31,7 @@ const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
   return (
     <div className={`w-full ${width}`}>
       <label
-        className="mt-4 block text-lg font-bold"
+        className="mt-4 block text-lg font-semibold"
         id={`${id}-label`}
         htmlFor={id}
       >
@@ -42,7 +42,7 @@ const Input = forwardRef((props: InputProps, ref?: Ref<HTMLInputElement>) => {
         {errorMessage && (
           <span
             id={`${id}-error`}
-            className="mt-2 block font-bold text-red-700"
+            className="mt-2 block font-semibold text-red-700"
           >
             {errorMessage}
           </span>

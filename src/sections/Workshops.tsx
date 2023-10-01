@@ -10,10 +10,10 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       ref={ref}
       id="workshops"
     >
-      <h2 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-600">
+      <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-600">
         Workshops
       </h2>
-      <p className="font-serif text-4xl font-bold leading-tight tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="font-serif text-4xl font-semibold leading-tight tracking-[-1px] text-gray-600 md:text-5xl">
         I touch on a range of topics
       </p>
       <div className="mt-10 flex flex-wrap justify-center gap-8">
@@ -23,7 +23,9 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
               key={index}
               className="w-72 rounded-md bg-gray-100 px-4 py-6 text-center shadow-sm"
             >
-              <p className="mb-2 font-serif text-xl font-bold">{topic.title}</p>
+              <p className="mb-2 font-serif text-xl font-semibold">
+                {topic.title}
+              </p>
               <p>{topic.description}</p>
             </div>
           ))}
@@ -34,7 +36,9 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
               key={index}
               className="w-72 rounded-md bg-gray-100 px-4 py-6 text-center shadow-sm"
             >
-              <p className="mb-2 font-serif text-xl font-bold">{topic.title}</p>
+              <p className="mb-2 font-serif text-xl font-semibold">
+                {topic.title}
+              </p>
               <p>{topic.description}</p>
             </div>
           ))}
@@ -45,7 +49,9 @@ const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
               key={index}
               className="w-72 rounded-md bg-gray-100 px-4 py-6 text-center shadow-sm"
             >
-              <p className="mb-2 font-serif text-xl font-bold">{topic.title}</p>
+              <p className="mb-2 font-serif text-xl font-semibold">
+                {topic.title}
+              </p>
               <p>{topic.description}</p>
             </div>
           ))}

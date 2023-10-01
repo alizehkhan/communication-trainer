@@ -7,13 +7,10 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-body {
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 img,
