@@ -21,7 +21,7 @@ const Testimonial = () => {
             here! You&apos;re in trusted hands.
           </q>
           <cite className="mt-4 block font-semibold">
-            — Ariana, Senior Product Designer
+            — Alizeh, Frontend Engineer
           </cite>
         </blockquote>
         <img src="/hellofresh.png" className="mt-4 h-10" alt="" />
