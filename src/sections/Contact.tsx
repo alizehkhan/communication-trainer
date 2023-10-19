@@ -19,14 +19,21 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         a simple solution that delivers.
       </p>
       <form action="" className="text-gray-700">
-        <Input id="name" width="md:w-[30ch]" required>
+        <Input id="name" autoComplete="name" width="md:w-[30ch]" required>
           Name
         </Input>
-        <Input id="email" width="md:w-[40ch]" type="email" required>
+        <Input
+          id="email"
+          autoComplete="email"
+          width="md:w-[40ch]"
+          type="email"
+          required
+        >
           Email
         </Input>
         <Input
           id="company-website"
+          autoComplete="url"
           width="md:w-[40ch]"
           type="url"
           placeholder="https://"
