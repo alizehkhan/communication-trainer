@@ -43,7 +43,7 @@ function App() {
         playing
         loop
         muted
-        width="100vw"
+        width="100%"
         height="100%"
       />
       <Contact ref={sectionRefs.contact} />
