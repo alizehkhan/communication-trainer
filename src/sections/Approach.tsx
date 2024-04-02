@@ -18,7 +18,10 @@ export const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       </p>
       <div className="mx-auto mt-16 flex flex-wrap items-center gap-6 md:gap-16">
         {approaches.map((approach, i) => (
-          <div key={i} className="flex max-w-[500px] items-center gap-4">
+          <div
+            key={i}
+            className="flex max-w-[500px] flex-col gap-4 md:flex-row md:items-center"
+          >
             <img
               src={approach.image}
               alt=""

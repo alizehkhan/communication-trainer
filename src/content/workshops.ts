@@ -1,4 +1,4 @@
-export const col1 = [
+export const workshops = [
   {
     title: "👂🏼 Listening to feedback",
     description: "How to listen to feedback without taking it personally.",
@@ -12,21 +12,11 @@ export const col1 = [
     description:
       "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
   },
-];
-export const col4 = [
   {
     title: "🗣️ Gossip",
     description:
       "How to transform workplace gossip into a more safe & respectful culture.",
   },
-  {
-    title: "💬 Sharing feedback",
-    description:
-      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
-  },
-];
-
-export const col3 = [
   {
     title: "🛟 Stop rescuing",
     description:
@@ -41,9 +31,6 @@ export const col3 = [
     title: "🧘 Self regulate",
     description: "To help you express yourself authentically under pressure.",
   },
-];
-
-export const col2 = [
   {
     title: "🪜 Power dynamics",
     description: "How to express thoughts & concerns openly to superiors.",
@@ -52,6 +39,11 @@ export const col2 = [
     title: "🏋️ Difficult Conversations",
     description:
       "Practices that help you engage in difficult conversations with more confidence.",
+  },
+  {
+    title: "💬 Sharing feedback",
+    description:
+      "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
   },
   {
     title: "🙋 Asking",
