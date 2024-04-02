@@ -14,7 +14,7 @@ type TextAreaProps = {
 } & TextareaHTMLAttributes<HTMLTextAreaElement>;
 
 // eslint-disable-next-line react/display-name
-const TextArea = forwardRef(
+export const TextArea = forwardRef(
   (props: TextAreaProps, ref?: Ref<HTMLTextAreaElement>) => {
     const { id, width, children, hint, ...restProps } = props;
 
@@ -64,5 +64,3 @@ const TextArea = forwardRef(
     );
   },
 );
-
-export default TextArea;

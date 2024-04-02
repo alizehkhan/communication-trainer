@@ -12,13 +12,8 @@ export const col1 = [
     description:
       "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
   },
-  {
-    title: "🏋️ Difficult Conversations",
-    description:
-      "Practices that help you engage in difficult conversations with more confidence.",
-  },
 ];
-export const col2 = [
+export const col4 = [
   {
     title: "🗣️ Gossip",
     description:
@@ -28,11 +23,6 @@ export const col2 = [
     title: "💬 Sharing feedback",
     description:
       "How to share feedback with someone, instead of complaining (e.g. “they're a micro manager!” “they're incompetent”).",
-  },
-  {
-    title: "🙋 Asking",
-    description:
-      "How to tactfully ask for what you want (rather than blaming & finger pointing) e.g. “this meeting is a waste of time!”",
   },
 ];
 
@@ -51,8 +41,21 @@ export const col3 = [
     title: "🧘 Self regulate",
     description: "To help you express yourself authentically under pressure.",
   },
+];
+
+export const col2 = [
   {
     title: "🪜 Power dynamics",
     description: "How to express thoughts & concerns openly to superiors.",
+  },
+  {
+    title: "🏋️ Difficult Conversations",
+    description:
+      "Practices that help you engage in difficult conversations with more confidence.",
+  },
+  {
+    title: "🙋 Asking",
+    description:
+      "How to tactfully ask for what you want (rather than blaming & finger pointing) e.g. “this meeting is a waste of time!”",
   },
 ];

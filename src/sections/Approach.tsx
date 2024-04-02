@@ -1,77 +1,38 @@
 import { Ref, forwardRef } from "react";
 
+import { approaches } from "../content/approaches";
+
 // eslint-disable-next-line react/display-name
-const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
+export const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
     <div
-      className="bg-white pb-24 pt-20 text-center text-gray-600"
+      className="container bg-white pb-24 pt-20 text-gray-600"
       id="approach"
       ref={ref}
     >
-      <h2 className="container mb-3 text-sm font-semibold uppercase tracking-wider text-gray-600">
+      <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
         Approach
       </h2>
-      <p className="container mx-auto font-serif text-4xl font-semibold leading-normal tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="mx-auto font-serif text-4xl font-semibold leading-normal tracking-[-1px] text-gray-600 md:text-5xl">
         My approach uses a blend of
       </p>
-      <div className="container mx-auto mt-6 flex flex-wrap items-center justify-center gap-12 md:gap-16">
-        <div className="w-[280px] text-center">
-          <img src="nvc.png" alt="" className="mx-auto mb-4 w-36" />
-          <p className="mb-3 font-serif text-2xl font-semibold">
-            Non-violent communication
-          </p>
-          <p className="text-gray-600">
-            Rooted in sharing one&apos;s feelings & needs. It is not an attempt
-            to end disagreements, but a way to increase empathy and
-            understanding.
-          </p>
-        </div>
-        <div className="w-[280px] text-center">
-          <img src="ifs.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mx-auto mb-3 w-[200px] font-serif text-2xl font-semibold">
-            Internal family systems therapy
-          </p>
-          <p className="text-gray-600">
-            An evidence-based psychotherapy, helping people to access and heal
-            their parts such as the “inner critic” and “inner procrastinator”.
-          </p>
-        </div>
-        <div className="w-[280px] text-center">
-          <img src="art.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mb-3 font-serif text-2xl font-semibold">
-            Authentic Relating
-          </p>
-          <p className="text-gray-600">
-            Centered around expressing one&apos;s true feelings and emotions,
-            showing vulnerability and allowing oneself to connect fully from
-            your heart in the company of others.
-          </p>
-        </div>
-      </div>
-      <div className="container mx-auto mt-12 flex flex-wrap items-end justify-center gap-12 md:gap-16">
-        <div className="w-[280px] text-center">
-          <img src="rh.png" alt="" className="mx-auto mb-2 w-20" />
-          <p className="mb-3 font-serif text-2xl font-semibold">
-            Radical honesty
-          </p>
-          <p className="text-gray-600">
-            A process to directly express and get over anger, reduce stress, and
-            create real connection with others.
-          </p>
-        </div>
-        <div className="w-[280px] text-center">
-          <img src="se.png" alt="" className="mx-auto mb-4 w-40" />
-          <p className="mb-3 font-serif text-2xl font-semibold">
-            Somatic experiencing
-          </p>
-          <p className="text-gray-600">
-            A body-oriented therapeutic model that helps heal trauma and other
-            stress disorders
-          </p>
-        </div>
+      <div className="mx-auto mt-16 flex flex-wrap items-center gap-6 md:gap-16">
+        {approaches.map((approach, i) => (
+          <div key={i} className="flex max-w-[500px] items-center gap-4">
+            <img
+              src={approach.image}
+              alt=""
+              className="h-24 w-40 shrink-0 object-contain"
+            />
+            <div>
+              <p className="mb-2 font-serif text-2xl font-semibold">
+                {approach.title}
+              </p>
+              <p className="text-gray-600">{approach.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
 });
-
-export default Approach;

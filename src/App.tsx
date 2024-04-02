@@ -2,16 +2,16 @@ import { useRef } from "react";
 import ReactPlayer from "react-player";
 import { BrowserRouter } from "react-router-dom";
 
-import Footer from "./components/Footer";
-import About from "./sections/About";
-import Approach from "./sections/Approach";
-import Contact from "./sections/Contact";
-import Hero from "./sections/Hero";
-import Offering from "./sections/Offering";
-import Quote1 from "./sections/Quote1";
-import Quote2 from "./sections/Quote2";
-import Testimonial from "./sections/Testimonial";
-import Workshops from "./sections/Workshops";
+import { Footer } from "./components/Footer";
+import { About } from "./sections/About";
+import { Approach } from "./sections/Approach";
+import { Contact } from "./sections/Contact";
+import { Hero } from "./sections/Hero";
+import { Offering } from "./sections/Offering";
+import { Quote1 } from "./sections/Quote1";
+import { Quote2 } from "./sections/Quote2";
+import { Testimonial } from "./sections/Testimonial";
+import { Workshops } from "./sections/Workshops";
 
 import "./index.css";
 
@@ -30,7 +30,7 @@ function App() {
       <Workshops ref={sectionRefs.workshops} />
       <Quote1 refs={sectionRefs} />
       <Approach ref={sectionRefs.approach} />
-      <Quote2 />
+      <Quote2 refs={sectionRefs} />
       <img
         src="coaching.jpg"
         alt=""

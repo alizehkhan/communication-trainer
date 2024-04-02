@@ -1,13 +1,13 @@
 import { Ref, forwardRef } from "react";
 
-import Input from "../components/Input";
-import TextArea from "../components/TextArea";
+import { Input } from "../components/Input";
+import { TextArea } from "../components/TextArea";
 
 // eslint-disable-next-line react/display-name
-const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
+export const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
   return (
-    <div className="container pb-10 pt-16" id="contact" ref={ref}>
-      <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-600">
+    <div className="container py-24" id="contact" ref={ref}>
+      <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
         Contact
       </h2>
       <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
@@ -60,5 +60,3 @@ const Contact = forwardRef((_, ref: Ref<HTMLDivElement>) => {
     </div>
   );
 });
-
-export default Contact;

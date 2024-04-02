@@ -1,11 +1,13 @@
 import { Ref, forwardRef } from "react";
 
+import { Button } from "../components/Button";
+
 // eslint-disable-next-line react/display-name
-const About = forwardRef(
+export const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
-    <div className="container mx-auto py-20" id="about" ref={ref}>
+    <div className="container mx-auto py-24" id="about" ref={ref}>
       <div className="max-w-[70ch]">
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-600">
+        <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
           About
         </h2>
         <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
@@ -16,7 +18,7 @@ const About = forwardRef(
           and courses in communication & conflict. I developed my integrative
           approach over the last 5 years, and have taught hundreds of people.
         </p>
-        <p className="mt-6 text-lg text-gray-600">
+        <p className="mt-6 text-lg font-bold text-gray-600">
           I help employees uproot unhelpful communication patterns that cause
           conflict avoidance, micro-management, resentment and demotivation! And
           transform this into a heart-led culture that brings more efficiency
@@ -30,22 +32,8 @@ const About = forwardRef(
           a co-worker or supervisor and deliver this kindly & directly, rather
           than abrasively or tacitly.
         </p>
-        <a
-          className="mt-4 inline-block rounded-md bg-amber-700 px-6 py-3 font-semibold text-white hover:bg-amber-800"
-          href="#contact"
-          onClick={(event) => {
-            event?.preventDefault();
-            refs["contact"].current?.scrollIntoView({
-              block: "start",
-              behavior: "smooth",
-            });
-          }}
-        >
-          Get in touch
-        </a>
+        <Button refs={refs} />
       </div>
     </div>
   ),
 );
-
-export default About;

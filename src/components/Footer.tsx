@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <div className="flex justify-center gap-2 bg-gray-800 py-8 text-sm text-gray-100">
+    <div className="flex justify-center gap-2 bg-gray-800 pb-24 pt-8 text-sm text-gray-100">
       <address>hello@haneenkhan.com</address> |
       <p>
         Website by {""}
@@ -13,5 +13,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;

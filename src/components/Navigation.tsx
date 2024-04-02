@@ -1,6 +1,6 @@
 import { LINKS } from "../content/links";
 
-const Navigation = ({ refs }: { refs: any }) => {
+export const Navigation = ({ refs }: { refs: any }) => {
   return (
     <header>
       <nav className="container mx-auto flex justify-between py-12 text-white">
@@ -29,5 +29,3 @@ const Navigation = ({ refs }: { refs: any }) => {
     </header>
   );
 };
-
-export default Navigation;
