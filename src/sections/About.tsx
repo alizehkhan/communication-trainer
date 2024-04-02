@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 export const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
     <div className="container mx-auto py-24" id="about" ref={ref}>
-      <div className="max-w-[70ch]">
+      <div className="max-w-[75ch]">
         <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
           About
         </h2>
@@ -18,9 +18,9 @@ export const About = forwardRef(
           and courses in communication & conflict. I developed my integrative
           approach over the last 5 years, and have taught hundreds of people.
         </p>
-        <p className="mt-6 text-lg font-bold text-gray-600">
+        <p className="mt-6 font-serif text-3xl font-semibold tracking-tight text-gray-500 md:leading-[1.2]">
           I help employees uproot unhelpful communication patterns that cause
-          conflict avoidance, micro-management, resentment and demotivation! And
+          conflict avoidance, micro-management, resentment and demotivation. And
           transform this into a heart-led culture that brings more efficiency
           and psychological safety into the workplace.
         </p>
