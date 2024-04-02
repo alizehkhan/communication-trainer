@@ -8,26 +8,6 @@ export const workshops = [
     description: "When people speak for longer than you've enjoyed.",
   },
   {
-    title: "🌱 Empathy",
-    description:
-      "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
-  },
-  {
-    title: "🗣️ Gossip",
-    description:
-      "How to transform workplace gossip into a more safe & respectful culture.",
-  },
-  {
-    title: "🛟 Stop rescuing",
-    description:
-      "How to listen to someone in distress & respond without trying to fix them!",
-  },
-  {
-    title: "🙅 Sharing Boundaries",
-    description:
-      "Saying no, asking for extensions, standing up for yourself etc. No more people pleasing!",
-  },
-  {
     title: "🧘 Self regulate",
     description: "To help you express yourself authentically under pressure.",
   },
@@ -36,9 +16,29 @@ export const workshops = [
     description: "How to express thoughts & concerns openly to superiors.",
   },
   {
+    title: "🗣️ Gossip",
+    description:
+      "How to transform workplace gossip into a more safe & respectful culture.",
+  },
+  {
+    title: "🌱 Empathy",
+    description:
+      "When pain blocks our ability to empathise with the 'enemy'- what do we do?",
+  },
+  {
+    title: "🛟 Stop rescuing",
+    description:
+      "How to listen to someone in distress & respond without trying to fix them!",
+  },
+  {
     title: "🏋️ Difficult Conversations",
     description:
       "Practices that help you engage in difficult conversations with more confidence.",
+  },
+  {
+    title: "🙅 Sharing Boundaries",
+    description:
+      "Saying no, asking for extensions, standing up for yourself etc. No more people pleasing!",
   },
   {
     title: "💬 Sharing feedback",

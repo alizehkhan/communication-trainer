@@ -16,7 +16,7 @@ export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
         {workshops.map((topic, index) => (
           <div
             key={index}
-            className="rounded-md bg-gray-50 px-4 py-6 text-center shadow-md"
+            className="rounded-md bg-gray-50 px-4 py-6 text-center shadow-sm"
           >
             <p className="mb-2 font-serif text-xl font-semibold">
               {topic.title}
