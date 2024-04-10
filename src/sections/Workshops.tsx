@@ -9,8 +9,9 @@ export const Workshops = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
         Workshops
       </h2>
-      <p className="font-serif text-4xl font-semibold leading-tight tracking-[-1px] text-gray-600 md:text-5xl">
-        My workshops touch on a range of topics...
+      <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl md:leading-[1.275]">
+        I help employees uproot unhelpful communication patterns that cause
+        conflict avoidance, micro-management, resentment and demotivation.
       </p>
       <div className="mt-12 grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] grid-rows-[masonry] gap-8">
         {workshops.map((topic, index) => (

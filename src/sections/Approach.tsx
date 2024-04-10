@@ -16,7 +16,7 @@ export const Approach = forwardRef((_, ref: Ref<HTMLDivElement>) => {
       <p className="mx-auto font-serif text-4xl font-semibold leading-normal tracking-[-1px] text-gray-600 md:text-5xl">
         My approach uses a blend of
       </p>
-      <div className="mx-auto mt-12 grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] items-center gap-8">
+      <div className="mx-auto mt-12 grid grid-cols-1 items-center gap-8 md:grid-cols-2">
         {approaches.map((approach, i) => (
           <div
             key={i}

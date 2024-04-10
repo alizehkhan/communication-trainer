@@ -18,7 +18,7 @@ export const About = forwardRef(
           and courses in communication & conflict. I developed my integrative
           approach over the last 5 years, and have taught hundreds of people.
         </p>
-        <p className="mt-6 font-serif text-3xl font-semibold tracking-tight text-gray-500 md:leading-[1.2]">
+        <p className="mt-6 text-lg text-gray-600">
           I help employees uproot unhelpful communication patterns that cause
           conflict avoidance, micro-management, resentment and demotivation. And
           transform this into a heart-led culture that brings more efficiency
