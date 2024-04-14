@@ -1,3 +1,5 @@
+// eslint-disable-next-line import/no-unresolved
+import { Analytics } from "@vercel/analytics/react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
 import { BrowserRouter } from "react-router-dom";
@@ -48,6 +50,7 @@ function App() {
       />
       <Contact ref={sectionRefs.contact} />
       <Footer />
+      <Analytics />
     </BrowserRouter>
   );
 }
