@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 export const About = forwardRef(
   ({ refs }: { refs: any }, ref: Ref<HTMLDivElement>) => (
     <div className="container mx-auto py-24" id="about" ref={ref}>
-      <div className="max-w-[75ch]">
+      <div className="max-w-[70ch]">
         <h2 className="mb-8 text-sm font-semibold uppercase tracking-wider text-gray-500">
           About
         </h2>
