@@ -3,28 +3,55 @@ export const Testimonial = () => {
     <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
         <p className="mb-4 font-serif text-3xl font-semibold">
-          Non-violent communication workshop
+          Effective, energising, and unforgettable
         </p>
         <blockquote>
           <q>
-            I used to feel a lot of reluctance going into difficult
-            conversations at work - I would even class myself as &quot;conflict
-            avoidant&quot;. After Haneen&apos;s workshop, I was surprised how
-            easy it was to bring up feedback that built trust and encouragement,
-            rather than awkwardness! We also practiced how to ask for what we
-            want from colleagues (being mindful of different positions of power)
-            and how to build in healthy boundaries so we don&apos;t burn out! In
-            general, Haneen&apos;s super warm approach helped our team feel more
-            open and &quot;human&quot;. I&apos;ve always found this kind of work
-            culture hard to re-create without having a shared language around
-            communication - and I highly recommend Haneen&apos;s facilitation
-            here! You&apos;re in trusted hands.
+            <p className="mb-4">
+              Haneen created a bespoke communication workshop for our company
+              offsite. The team was unanimous it was the highlight of the day.
+              We listened with rapt attention as Haneen unfolded how to
+              understand and take accountability for our needs. We hatched
+              scenarios and stepped into different energies for delivering our
+              messages (greatly inspired by Haneen's Oscar-worthy
+              performances!). And we did deep group work to apply Haneen's
+              actionable formula to the real-life confrontations we were shying
+              away from.
+            </p>
+            <p className="mb-4">
+              But the magic began before we even got into the room that day. I
+              experienced firsthand how
+              <strong>
+                {" "}
+                Haneen's curious and nuanced inquiry teased out where our
+                company culture was at{" "}
+              </strong>
+              — and what we really needed to get from the session. She took
+              quantitative and qualitative data about our culture and what our
+              employees had to say. And she synthesised different solutions,
+              taking on lots of feedback to find the right workshop for us.
+            </p>
+            <p>
+              I was really wowed by Haneen's deep passion, expertise, and
+              professionalism throughout.
+              <strong>
+                {" "}
+                But her real secret weapon, in my opinion at least, is getting
+                people to lean forward, prick their ears up, and care.{" "}
+              </strong>
+              Even the people who thought a communication workshop would be
+              fluff, squish, and someone putting words in their mouth (spoiler:
+              it was none of those things) were enthralled. Every team member
+              came away thinking and behaving differently. And that right there
+              is the difference between a facilitator and a real change-maker.
+              Thank you, Haneen!
+            </p>
           </q>
           <cite className="mt-4 block font-semibold">
-            — Alizeh, Frontend Engineer
+            — Grace Willatt, Science Lead
           </cite>
         </blockquote>
-        <img src="/hellofresh.png" className="mt-4 h-10" alt="" />
+        <img src="/mojo.svg" className="mt-4 h-10" alt="" />
       </div>
     </div>
   );
